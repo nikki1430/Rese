@@ -1,0 +1,151 @@
+main {
+    font-size: clamp(1.2rem, 0.9136rem + 0.89vw, 1.6rem);
+}
+
+.update-success {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(63, 90, 242);
+    font-weight: bold;
+}
+
+.delete-success {
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.header__text {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    padding-top: 1px;
+    padding-left: 3%;
+    border: none;
+    font-size: clamp(1.4rem, 0.9136rem + 0.89vw, 2rem);
+
+}
+
+.header__text-week {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    padding-top: 1px;
+    padding-left: 5px;
+    padding-right: 3%;
+    border: none;
+    font-size: clamp(1.4rem, 0.9136rem + 0.89vw, 2rem);
+}
+
+.date__change-button {
+    width: 12%;
+    max-width: 60px;
+    font-size: clamp(1.4rem, 1.3136rem + 0.89vw, 2rem);
+    color: steelblue;
+    border: 1px solid steelblue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.table__wrap {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px 5% 10px 5%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.reservation__table {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.table__header {
+    margin-top: 10px;
+}
+
+.table__header,
+.table__data {
+    padding-left: 1%;
+    border-bottom: 1px solid #a9a9a9;
+    height: 40px;
+}
+
+.no-column {
+    width: 10%;
+}
+
+.time-column {
+    width: 20%;
+}
+
+.num-column {
+    width: 20%;
+}
+
+.name-column {
+    width: 25%;
+}
+
+.update-column,
+.delete-column {
+    width: 10%;
+}
+
+.table__data {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table__data-button {
+    padding: 0;
+}
+
+.table__data-input {
+    width: 80%;
+    border: none;
+    font-size: clamp(1.2rem, 0.9136rem + 0.89vw, 1.6rem);
+}
+
+.update__button {
+    display: inline-block;
+    width: 90%;
+    padding: 5px 0;
+    text-decoration: none;
+    color: inherit;
+    background-color: rgb(63, 90, 242);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: clamp(1rem, 0.7136rem + 0.89vw, 1.4rem);
+}
+
+.delete__button {
+    display: inline-block;
+    width: 90%;
+    padding: 5px 0;
+    text-decoration: none;
+    color: inherit;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: clamp(1rem, 0.7136rem + 0.89vw, 1.4rem);
+}
+
+.table__data--center {
+    text-align: center;
+}

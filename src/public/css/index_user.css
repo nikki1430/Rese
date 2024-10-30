@@ -1,0 +1,72 @@
+main {
+    font-size: 1.6rem;
+}
+
+.table__wrap {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px 5% 10px 5%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.user__table {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    font-size: clamp(1.2rem, 0.9136rem + 0.89vw, 1.6rem);
+}
+
+.table__header {
+    margin-top: 10px;
+}
+
+.select-box__item {
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: clamp(1.2rem, 0.9136rem + 0.89vw, 1.6rem);
+    font-weight: bold;
+    width: 70%;
+    max-width: 350px;
+    min-width: 60px;
+}
+
+.select-box__item:focus {
+    outline: none;
+}
+
+.select-box__option {
+    height: 39px;
+}
+
+.table__header,
+.table__data {
+    padding-left: 1%;
+    border-bottom: 1px solid #a9a9a9;
+    height: 40px;
+}
+
+.header-no {
+    width: 10%;
+}
+
+.header-name {
+    width: 30px;
+}
+
+.header-email {
+    width: 40%;
+}
+
+.header-roles {
+    width: 15%;
+    padding-left: 0.5%;
+}
+
+.table__data {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

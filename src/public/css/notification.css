@@ -1,0 +1,128 @@
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+.alert-success {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(63, 90, 242);
+    font-weight: bold;
+}
+
+.notification__wrap {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 600px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    background-color: #fff;
+}
+
+.notification__header {
+    background-color: rgb(63, 90, 242);
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 15px;
+}
+
+.notification__content-wrap {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+    font-size: clamp(1.2rem, 0.9136rem + 0.89vw, 1.6rem);
+}
+
+.notification__content {
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 10px 0 10px 10px;
+}
+
+.notification__title {
+    width: 50px;
+}
+
+.vertical-center {
+    padding-top: 5px;
+}
+
+.notification__area {
+    width: 85%;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.destination__content-select {
+    width: 130px;
+    height: 30px;
+    font-size: clamp(1.2rem, 0.9136rem + 0.89vw, 1.6rem);
+}
+
+.notification__textarea {
+    border: 1px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: clamp(1.2rem, 0.9136rem + 0.89vw, 1.6rem);
+    width: 100%;
+}
+
+.form__button {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.form__button-btn:hover,
+.back__button:hover {
+    opacity: 0.8;
+}
+
+.back__button {
+    display: inline-block;
+    width: clamp(8rem, 6.5712rem + 4.46vw, 10rem);
+    padding: 5px 0;
+    font-size: clamp(1rem, 0.7136rem + 0.89vw, 1.2rem);
+    margin-right: 30px;
+    text-decoration: none;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__button-btn {
+    display: inline-block;
+    width: clamp(8rem, 6.5712rem + 4.46vw, 10rem);
+    padding: 5px 0;
+    font-size: clamp(1rem, 0.7136rem + 0.89vw, 1.2rem);
+    background-color: rgb(63, 90, 242);
+    border: 1px solid rgb(63, 90, 242);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .notification__content-textarea {
+        display: block;
+    }
+
+    .notification__area {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .notification__area-textarea {
+        margin-top: 10px;
+    }
+
+    .back__button {
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,55 @@
+.header__wrap {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.header__text {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.body__wrap {
+    text-align: center;
+}
+
+.body__text {
+    font-size: 1.6rem;
+}
+
+.alert-success {
+    font-size: 2rem;
+    color: rgb(38, 81, 207);
+}
+
+.back__button {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: rgb(38, 81, 207);
+    text-decoration: none;
+}
+
+.form__item {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.form__input {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    background-color: #eee;
+    font-size: 1.6rem;
+}
+
+.form__input-button {
+    border-style: none;
+    background-color: rgb(38, 81, 207);
+    color: white;
+}

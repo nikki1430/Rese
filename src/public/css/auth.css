@@ -1,0 +1,108 @@
+main {
+    margin-top: 100px;
+}
+
+.auth__wrap {
+    margin: auto;
+    max-width: 350px;
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    background-color: #fff;
+}
+
+.auth__header {
+    background-color: rgb(63, 90, 242);
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 1.6rem;
+    padding: 15px;
+}
+
+.form__item {
+    padding: 30px 30px 20px 30px;
+}
+
+.form__input-item {
+    display: inline-block;
+    width: 85%;
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.form__item-user,
+.form__item-mail,
+.form__item-key {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.error__item {
+    margin-bottom: 15px;
+    color: red;
+    font-size: 1.4rem;
+    margin-left: 38px;
+}
+
+.form__item-user::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/person.svg) no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+    vertical-align: bottom;
+}
+
+.form__item-shop::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/shop.svg) no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+    vertical-align: bottom;
+}
+
+.form__item-mail::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/mail.svg) no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+    vertical-align: bottom;
+}
+
+.form__item-key::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/key.svg) no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+    vertical-align: bottom;
+}
+
+.form__item-button {
+    margin-left: auto;
+    display: block;
+    background-color: rgb(63, 90, 242);
+    border: 1px solid rgb(63, 90, 242);
+    border-radius: 5px;
+    color: #fff;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.form__item-button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,21 @@
+.admin-nav__content {
+    font-size: 2rem;
+}
+
+.admin-nav__item {
+    text-align: center;
+}
+
+.admin-nav__list {
+    margin: 20px 0;
+}
+
+.admin-nav__link {
+    color: rgb(63, 90, 242);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.admin-nav__link:hover {
+    opacity: 0.8;
+}

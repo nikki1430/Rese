@@ -1,0 +1,378 @@
+main {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+header {
+    width: 48%;
+}
+
+.detail__wrap {
+    width: 48%;
+    margin-top: 10px;
+    height: 620px;
+    overflow: auto;
+}
+
+.detail__wrap::-webkit-scrollbar {
+    display: none;
+}
+
+.header__back {
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    text-decoration: none;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.header__shop-name {
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.header__review {
+    text-decoration: none;
+}
+
+.rating__star {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    white-space: nowrap;
+    color: rgb(225, 225, 225);
+    font-size: 2.8rem;
+}
+
+.rating__star--small {
+    margin-left: 10px;
+    font-size: 2.4rem;
+}
+
+.rating__star::before,
+.rating__star::after {
+    content: "★★★★★";
+}
+
+.rating__star::after {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    color: rgb(63, 90, 242);
+    font-size: 2.8rem;
+    width: var(--star-width);
+}
+
+.rating__star--small::after {
+    font-size: 2.4rem;
+}
+
+.rating__number {
+    font-size: 2.8rem;
+    color: rgb(63, 90, 242);
+    font-weight: bold;
+}
+
+.review__count {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: rgb(28, 65, 251);
+}
+
+.review__count-none {
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.favorite__count {
+    font-size: 1.6rem;
+}
+
+.review__count:hover {
+    text-decoration: underline;
+    color: rgb(63, 90, 242);
+}
+
+.review__count::before,
+.review__count-none::before {
+    content: "";
+    background: url(../images/review_lightcoral.svg) no-repeat;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.favorite__count::before {
+    content: "";
+    background: url(../images/heart_color.svg) no-repeat;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.detail__image {
+    margin: 10px 0;
+}
+
+.detail__image-img {
+    width: 100%;
+}
+
+.detail__tag {
+    display: flex;
+    font-size: 1.6rem;
+}
+
+.detail__tag-info {
+    padding-right: 10px;
+}
+
+.detail__outline-text {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.review__link {
+    color: inherit;
+    font-size: 1.4rem;
+}
+
+.review__link:hover {
+    opacity: 0.6;
+}
+
+.all-review__button {
+    display: block;
+    color: inherit;
+    width: 100%;
+    text-decoration: none;
+    background-color: rgb(84, 124, 243);
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    height: 35px;
+    padding: 6px;
+    margin: 50px 0 20px;
+}
+
+.all-review__button:hover {
+    opacity: 0.6;
+}
+
+.my-review__content {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+.review-button__unit {
+    text-align: right;
+}
+
+.my-review__edit {
+    color: inherit;
+}
+
+.my-review__form {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.my-review__delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.my-review__text {
+    margin: 0 20px;
+    font-size: 1.2rem;
+}
+
+.review__comment {
+    margin: 10px 12px;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.my-review__image-area {
+    width: 180px;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.my-review__image {
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid lightgray;
+}
+
+.mobile-detail__wrap {
+    display: none;
+}
+
+.reservation__wrap {
+    width: 45%;
+    height: 650px;
+    background-color: rgb(63, 90, 242);
+    margin-top: -70px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation__content {
+    padding: 10px 10% 10px 30px;
+}
+
+.reservation__title {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.form__item {
+    display: block;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 0;
+    height: 25px;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.form__item:first-child {
+    width: 200px;
+}
+
+.error__item {
+    margin-bottom: 15px;
+    color: red;
+    font-size: 1.4rem;
+    padding-left: 10px;
+}
+
+.reservation__group {
+    background-color: rgb(84, 124, 243);
+    color: #fff;
+    width: 95%;
+    border-radius: 5px;
+}
+
+.reservation__area {
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.table__header {
+    width: 85px;
+    text-align: left;
+    font-weight: normal;
+    padding: 2px 0;
+}
+
+.reservation__button {
+    margin-top: auto;
+    width: 100%;
+}
+
+.mobile-reservation__button {
+    display: none;
+}
+
+.reservation__message {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.reservation__button-btn {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(28, 65, 251);
+    border: none;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.reservation__button-btn--disabled {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(28, 65, 251);
+    border: none;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    cursor: auto;
+}
+
+.reservation__button-link {
+    font-size: 1.6rem;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.reservation__button-link:visited {
+    color: inherit;
+}
+
+.reservation__button-btn:hover,
+.reservation__button-link:hover {
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        display: block;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .detail__wrap {
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .reservation__wrap {
+        width: 90%;
+        background-color: rgb(63, 90, 242);
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}

@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.content__wrap {
+    width: 90%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+    height: 250px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.content__text {
+    margin: 0;
+    padding-top: 100px;
+    font-size: 2rem;
+    color: rgb(63, 90, 242);
+    font-weight: bold;
+}

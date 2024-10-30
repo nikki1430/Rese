@@ -1,0 +1,283 @@
+main {
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+
+.error__message {
+    margin: 0;
+    color: red;
+}
+
+.review__wrap {
+    display: flex;
+}
+
+.title__wrap {
+    width: 45%;
+    height: 100%;
+    padding: 0 5%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.title__wrap::after {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: lightgray;
+}
+
+.title__text {
+    font-size: 3.2rem;
+    margin-top: 0;
+}
+
+.shop__content {
+    width: 100%;
+    max-width: 260px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.shop__image {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.shop__item {
+    margin: 20px;
+}
+
+.shop__title {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.shop__tag {
+    display: flex;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.shop__tag-info {
+    margin: 0;
+    padding-right: 5px;
+}
+
+.shop__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.shop__button-detail {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: rgb(63, 90, 242);
+    border: 1px solid rgb(63, 90, 242);
+    border-radius: 5px;
+    color: #fff;
+    padding: 0 16px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.shop__button-detail:hover {
+    opacity: 0.8;
+}
+
+.shop__button-favorite-btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+
+.shop__button-favorite-btn:hover {
+    opacity: 0.6;
+}
+
+.review__form {
+    width: 55%;
+    padding-left: 5%;
+}
+
+.review__form-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.review__form-title:first-child {
+    margin: 0;
+}
+
+.review__rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.rating__star {
+    font-size: 4rem;
+    color: #d4d4d4;
+    transition: color 0.2s;
+    display: none;
+}
+
+.rating__star-label {
+    color: #d2d2d2;
+    font-size: 4rem;
+    padding: 0;
+    cursor: pointer;
+}
+
+.rating__star-label:hover,
+.rating__star-label:hover~.rating__star-label,
+.rating__star:checked~.rating__star-label {
+    color: rgb(63, 90, 242);
+}
+
+.review__form-textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    resize: none;
+    border: 1px solid gray;
+    background-color: #eee;
+}
+
+.count-string {
+    margin: 0;
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+.upload-area {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+}
+
+.upload-text__area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.upload-area__text {
+    width: 100%;
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.upload-area__text--small {
+    width: 100%;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.input-file {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.image-area {
+    width: 180px;
+    height: 120px;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+}
+
+.image-area__image {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+    display: block;
+}
+
+.button__content {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    margin: 40px 0;
+}
+
+.review__button {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 50px;
+    border-radius: 50px;
+    border: lightgray;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    background-color: white;
+    cursor: pointer;
+}
+
+.review__button:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 768px) {
+    .review__wrap {
+        display: block;
+    }
+
+    .title__wrap {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .title__wrap::after {
+        display: none;
+    }
+
+    .title__text {
+        margin-bottom: 10px;
+    }
+
+    .shop__content {
+        margin-left: 18px;
+    }
+
+    .review__form {
+        width: 100%;
+        padding-right: 5%;
+    }
+
+    .review__form-title {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .button__content {
+        position: static;
+        margin: 40px auto;
+    }
+}
