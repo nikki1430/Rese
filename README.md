@@ -25,7 +25,8 @@ ec2-35-78-71-94.ap-northeast-1.compute.amazonaws.com
 <img width="475" alt="テーブル仕様書" src="https://github.com/nikki1430/atte/assets/164667475/ba7023ff-6919-4475-b3ea-37faea674b9c">
 
 ## ER図
-![atte draw](https://github.com/user-attachments/assets/87325b8e-30b7-4282-9a14-35b4e089c57d)
+![atte drawio](https://github.com/user-attachments/assets/c06d8151-d6d5-47a8-946f-b137b181f01b)
+
 
 # atte
 ***
