@@ -11,28 +11,28 @@
 ec2-54-249-162-21.ap-northeast-1.compute.amazonaws.com
 
 ## 機能一覧
-*ログイン機能
-*メール認証
-*お気に入り追加/削除
-*予約追加/変更
-*検索、並び替え、レビュー
-*リマインドメール送信
-*QRコードで予約認証
-*決済機能
-*管理者権限で店舗代表者作成
-*ユーザー一覧閲覧
-*お知らせメール送信
-*店舗代表者権限で店舗情報の作成/更新
-*予約確認/変更/削除 
-*csvインポートで新規店舗追加
+* ログイン機能
+* メール認証
+* お気に入り追加/削除
+* 予約追加/変更
+* 検索、並び替え、レビュー
+* リマインドメール送信
+* QRコードで予約認証
+* 決済機能
+* 管理者権限で店舗代表者作成
+* ユーザー一覧閲覧
+* お知らせメール送信
+* 店舗代表者権限で店舗情報の作成/更新
+* 予約確認/変更/削除 
+* csvインポートで新規店舗追加
 
 ## 使用技術
-*docker
-*Laravel 8.x
-*PHP 7.4
-*laravel-fortify
-*laravel-permission
-*Stripe
+* docker
+* Laravel 8.x
+* PHP 7.4
+* laravel-fortify
+* laravel-permission
+* Stripe
 
 ## テーブル設計・ER図
 ![atte drawio](https://github.com/user-attachments/assets/59d19922-034a-472c-b7cf-d380fad1918e)
